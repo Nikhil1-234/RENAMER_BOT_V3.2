@@ -3,10 +3,10 @@ services:
   workerdisk:
     build: .
     environment:
-      - API_ID=${API_ID}
-      - API_HASH=${HASH}
-      - TOKEN=${TOKEN}
-      - DB_NAME=${DB_NAME}
-      - DB_URL=${DB_URL}
-      - CHANNEL=${CHANNEL}
-      - ADMIN=${ADMIN}
+      - API_ID=${API_ID,"22299340"}
+      - API_HASH=${HASH,"09b09f3e2ff1306da4a19888f614d937"}
+      - TOKEN=${TOKEN,"6544161566:AAGRs0j26zsEecrrzCGzth77tdJ6IF7p8hE"}
+      - DB_NAME=${DB_NAME,"jidovi4576"}
+      - DB_URL=${DB_URL,"mongodb+srv://jidovi4576:B6HywpSzpSqZZ3W@clusterbot2.ezfn734.mongodb.net/?retryWrites=true&w=majority"}
+      - CHANNEL=${CHANNEL,"-1001896877147"}
+      - ADMIN=${ADMIN,"5380609667"}
